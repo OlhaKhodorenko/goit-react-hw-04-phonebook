@@ -1,0 +1,35 @@
+.contactForm {
+  padding: 20px;
+  border: 2px solid #6cdf99;
+  margin-right: 120px;
+}
+.contactForm label {
+  color: #3e3c3c;
+  font-weight: 500;
+}
+.input {
+  display: block;
+  height: 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  box-shadow: rgb(92 102 99) 5px 5px 5px -5px;
+}
+.input:active,
+.input:visited,
+.input:hover {
+  border: 1px solid #6cdf99;
+}
+.submitBtn {
+  margin-top: 10px;
+  height: 25px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #6cdf99;
+  color: #3e3c3c;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: rgb(92 102 99) 5px 5px 5px -5px;
+}

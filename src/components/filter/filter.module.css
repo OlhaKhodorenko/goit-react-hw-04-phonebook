@@ -1,0 +1,14 @@
+.input {
+  display: block;
+  height: 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  box-shadow: rgb(92 102 99) 5px 5px 5px -5px;
+}
+.input:active,
+.input:visited,
+.input:hover {
+  border: 1px solid #6cdf99;
+}

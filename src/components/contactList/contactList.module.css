@@ -1,0 +1,30 @@
+.contactsList {
+  width: 280px;
+}
+.marker {
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: #6cdf99;
+}
+.listItem {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.removeBtn {
+  height: 20px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #e9aa8fd4;
+  color: #3e3c3c;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: rgb(92 102 99) 5px 5px 5px -5px;
+}
+.itemName {
+  text-transform: capitalize;
+  min-width: 190px;
+}
